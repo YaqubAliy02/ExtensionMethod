@@ -2,7 +2,6 @@
 // Tarteeb School (c) All rights reserved |
 //----------------------------------------
 using ExtensionMethod.Services;
-
 namespace ExtensionMethod
 {
     class Program

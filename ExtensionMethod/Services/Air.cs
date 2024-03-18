@@ -1,8 +1,6 @@
 ﻿//----------------------------------------
 // Tarteeb School (c) All rights reserved |
 //----------------------------------------
-
-
 namespace ExtensionMethod.Services
 {
     internal class Air : IShipping
@@ -15,7 +13,6 @@ namespace ExtensionMethod.Services
             }
             return Math.Max(20, order.GetTotalWeight() * 3);
         }
-
         public DateTimeOffset GetDate()
         {
             return DateTime.Now.AddDays(4);

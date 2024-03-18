@@ -7,6 +7,5 @@ namespace ExtensionMethod.Services
     {
         double GetCost(OrderService order);
         DateTimeOffset GetDate();
-
     }
 }
